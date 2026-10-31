@@ -1,0 +1,1217 @@
+[
+  {
+    "title": "Blade",
+    "typeLabel": "Film",
+    "year": "1998",
+    "runtime": "2 sa",
+    "studio": "New Line Cinema",
+    "notes": "Wesley Snipes serisi (Başlangıç)",
+    "watched": true
+  },
+  {
+    "title": "Spider-Man Unlimited",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "1999",
+    "runtime": "1 Sezon / 13 Bölüm",
+    "studio": "Fox Kids",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "The Avengers: United They Stand",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "1999",
+    "runtime": "1 Sezon / 13 Bölüm",
+    "studio": "Fox Kids",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "X-Men",
+    "typeLabel": "Film",
+    "year": "2000",
+    "runtime": "1 sa 44 dk",
+    "studio": "20th Century Fox",
+    "notes": "Fox Mutant Evreni Başlangıcı",
+    "watched": true
+  },
+  {
+    "title": "X-Men: Evolution",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2000",
+    "runtime": "4 Sezon / 52 Bölüm",
+    "studio": "WB",
+    "notes": "Okul yılları odaklı",
+    "watched": false
+  },
+  {
+    "title": "Spider-Man",
+    "typeLabel": "Film",
+    "year": "2002",
+    "runtime": "2 sa 1 dk",
+    "studio": "Sony Pictures",
+    "notes": "Tobey Maguire üçlemesi (Başlangıç)",
+    "watched": true
+  },
+  {
+    "title": "Blade II",
+    "typeLabel": "Film",
+    "year": "2002",
+    "runtime": "1 sa 57 dk",
+    "studio": "New Line Cinema",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Daredevil",
+    "typeLabel": "Film",
+    "year": "2003",
+    "runtime": "2 sa 13 dk",
+    "studio": "20th Century Fox",
+    "notes": "Ben Affleck versiyonu",
+    "watched": true
+  },
+  {
+    "title": "X2: X-Men United",
+    "typeLabel": "Film",
+    "year": "2003",
+    "runtime": "2 sa 14 dk",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Hulk",
+    "typeLabel": "Film",
+    "year": "2003",
+    "runtime": "2 sa 18 dk",
+    "studio": "Universal",
+    "notes": "Ang Lee / Eric Bana versiyonu",
+    "watched": true
+  },
+  {
+    "title": "Spider-Man: The New Animated Series",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2003",
+    "runtime": "1 Sezon / 13 Bölüm",
+    "studio": "MTV",
+    "notes": "Neil Patrick Harris seslendiriyor",
+    "watched": false
+  },
+  {
+    "title": "The Punisher",
+    "typeLabel": "Film",
+    "year": "2004",
+    "runtime": "2 sa 4 dk",
+    "studio": "Lionsgate",
+    "notes": "Thomas Jane versiyonu",
+    "watched": true
+  },
+  {
+    "title": "Spider-Man 2",
+    "typeLabel": "Film",
+    "year": "2004",
+    "runtime": "2 sa 7 dk",
+    "studio": "Sony Pictures",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Blade: Trinity",
+    "typeLabel": "Film",
+    "year": "2004",
+    "runtime": "1 sa 53 dk",
+    "studio": "New Line Cinema",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Elektra",
+    "typeLabel": "Film",
+    "year": "2005",
+    "runtime": "1 sa 37 dk",
+    "studio": "20th Century Fox",
+    "notes": "Daredevil yan filmi",
+    "watched": true
+  },
+  {
+    "title": "Man-Thing",
+    "typeLabel": "Film",
+    "year": "2005",
+    "runtime": "1 sa 37 dk",
+    "studio": "Lionsgate",
+    "notes": "Korku filmi",
+    "watched": false
+  },
+  {
+    "title": "Fantastic Four",
+    "typeLabel": "Film",
+    "year": "2005",
+    "runtime": "1 sa 46 dk",
+    "studio": "20th Century Fox",
+    "notes": "İlk büyük kadro",
+    "watched": true
+  },
+  {
+    "title": "Blade: The Series",
+    "typeLabel": "Dizi",
+    "year": "2006",
+    "runtime": "1 Sezon / 13 Bölüm",
+    "studio": "Spike",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "X-Men: The Last Stand",
+    "typeLabel": "Film",
+    "year": "2006",
+    "runtime": "1 sa 44 dk",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Ghost Rider",
+    "typeLabel": "Film",
+    "year": "2007",
+    "runtime": "1 sa 54 dk",
+    "studio": "Sony / Columbia",
+    "notes": "Nicolas Cage versiyonu",
+    "watched": true
+  },
+  {
+    "title": "Spider-Man 3",
+    "typeLabel": "Film",
+    "year": "2007",
+    "runtime": "2 sa 19 dk",
+    "studio": "Sony Pictures",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Fantastic Four: Rise of the Silver Surfer",
+    "typeLabel": "Film",
+    "year": "2007",
+    "runtime": "1 sa 32 dk",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Iron Man",
+    "typeLabel": "Film",
+    "year": "2008",
+    "runtime": "2 sa 6 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU Başlangıcı",
+    "watched": true
+  },
+  {
+    "title": "The Incredible Hulk",
+    "typeLabel": "Film",
+    "year": "2008",
+    "runtime": "1 sa 52 dk",
+    "studio": "Marvel Studios / Universal",
+    "notes": "MCU (Edward Norton)",
+    "watched": true
+  },
+  {
+    "title": "Punisher: War Zone",
+    "typeLabel": "Film",
+    "year": "2008",
+    "runtime": "1 sa 43 dk",
+    "studio": "Lionsgate",
+    "notes": "Ray Stevenson versiyonu",
+    "watched": true
+  },
+  {
+    "title": "The Spectacular Spider-Man",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2008",
+    "runtime": "2 Sezon / 26 Bölüm",
+    "studio": "Sony / Kids WB",
+    "notes": "En beğenilen animasyonlardan",
+    "watched": false
+  },
+  {
+    "title": "Wolverine and the X-Men",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2009",
+    "runtime": "1 Sezon / 26 Bölüm",
+    "studio": "Nicktoons",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "X-Men Origins: Wolverine",
+    "typeLabel": "Film",
+    "year": "2009",
+    "runtime": "1 sa 47 dk",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Iron Man: Armored Adventures",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2009",
+    "runtime": "2 Sezon / 52 Bölüm",
+    "studio": "Nicktoons",
+    "notes": "Genç Tony Stark",
+    "watched": false
+  },
+  {
+    "title": "Iron Man 2",
+    "typeLabel": "Film",
+    "year": "2010",
+    "runtime": "2 sa 4 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "The Avengers: Earth's Mightiest Heroes",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2010",
+    "runtime": "2 Sezon / 52 Bölüm",
+    "studio": "Disney XD",
+    "notes": "Çizgi romana en sadık animasyon",
+    "watched": false
+  },
+  {
+    "title": "Thor",
+    "typeLabel": "Film",
+    "year": "2011",
+    "runtime": "1 sa 55 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "X-Men: First Class",
+    "typeLabel": "Film",
+    "year": "2011",
+    "runtime": "2 sa 11 dk",
+    "studio": "20th Century Fox",
+    "notes": "Fox Prequel Serisi",
+    "watched": true
+  },
+  {
+    "title": "Captain America: The First Avenger",
+    "typeLabel": "Film",
+    "year": "2011",
+    "runtime": "2 sa 4 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "Ghost Rider: Spirit of Vengeance",
+    "typeLabel": "Film",
+    "year": "2011",
+    "runtime": "1 sa 36 dk",
+    "studio": "Sony / Columbia",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "The Avengers",
+    "typeLabel": "Film",
+    "year": "2012",
+    "runtime": "2 sa 23 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "The Amazing Spider-Man",
+    "typeLabel": "Film",
+    "year": "2012",
+    "runtime": "2 sa 16 dk",
+    "studio": "Sony Pictures",
+    "notes": "Andrew Garfield serisi",
+    "watched": true
+  },
+  {
+    "title": "Ultimate Spider-Man",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2012",
+    "runtime": "4 Sezon / 104 Bölüm",
+    "studio": "Disney XD",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Men in Black 3",
+    "typeLabel": "Film",
+    "year": "2012",
+    "runtime": "1 sa 46 dk",
+    "studio": "Columbia",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Iron Man 3",
+    "typeLabel": "Film",
+    "year": "2013",
+    "runtime": "2 sa 10 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "The Wolverine",
+    "typeLabel": "Film",
+    "year": "2013",
+    "runtime": "2 sa 6 dk",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Agents of S.H.I.E.L.D.",
+    "typeLabel": "Dizi",
+    "year": "2013",
+    "runtime": "7 Sezon / 136 Bölüm",
+    "studio": "ABC",
+    "notes": "MCU (Yan Hikaye)",
+    "watched": true
+  },
+  {
+    "title": "Thor: The Dark World",
+    "typeLabel": "Film",
+    "year": "2013",
+    "runtime": "1 sa 52 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "Kick-Ass 2",
+    "typeLabel": "Film",
+    "year": "2013",
+    "runtime": "1 sa 43 dk",
+    "studio": "Universal",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Avengers Assemble",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2013",
+    "runtime": "5 Sezon / 127 Bölüm",
+    "studio": "Disney XD",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Hulk and the Agents of S.M.A.S.H.",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2013",
+    "runtime": "2 Sezon / 52 Bölüm",
+    "studio": "Disney XD",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Captain America: The Winter Soldier",
+    "typeLabel": "Film",
+    "year": "2014",
+    "runtime": "2 sa 16 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "The Amazing Spider-Man 2",
+    "typeLabel": "Film",
+    "year": "2014",
+    "runtime": "2 sa 22 dk",
+    "studio": "Sony Pictures",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "X-Men: Days of Future Past",
+    "typeLabel": "Film",
+    "year": "2014",
+    "runtime": "2 sa 12 dk",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "typeLabel": "Film",
+    "year": "2014",
+    "runtime": "2 sa 1 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "Big Hero 6",
+    "typeLabel": "Film (Animasyon)",
+    "year": "2014",
+    "runtime": "1 sa 42 dk",
+    "studio": "Walt Disney Animation",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Kingsman: The Secret Service",
+    "typeLabel": "Film",
+    "year": "2014",
+    "runtime": "2 sa 9 dk",
+    "studio": "20th Century Fox",
+    "notes": "Icon Comics (Marvel) uyarlaması",
+    "watched": false
+  },
+  {
+    "title": "Agent Carter",
+    "typeLabel": "Dizi",
+    "year": "2015",
+    "runtime": "2 Sezon / 18 Bölüm",
+    "studio": "ABC",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "Daredevil",
+    "typeLabel": "Dizi",
+    "year": "2015",
+    "runtime": "3 Sezon / 39 Bölüm",
+    "studio": "Netflix",
+    "notes": "Defenders Saga",
+    "watched": true
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "typeLabel": "Film",
+    "year": "2015",
+    "runtime": "2 sa 21 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "Ant-Man",
+    "typeLabel": "Film",
+    "year": "2015",
+    "runtime": "1 sa 57 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "Fantastic Four",
+    "typeLabel": "Film",
+    "year": "2015",
+    "runtime": "1 sa 40 dk",
+    "studio": "20th Century Fox",
+    "notes": "Başarısız reboot",
+    "watched": true
+  },
+  {
+    "title": "Jessica Jones",
+    "typeLabel": "Dizi",
+    "year": "2015",
+    "runtime": "3 Sezon / 39 Bölüm",
+    "studio": "Netflix",
+    "notes": "Defenders Saga",
+    "watched": true
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2015",
+    "runtime": "3 Sezon / 79 Bölüm",
+    "studio": "Disney XD",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Deadpool",
+    "typeLabel": "Film",
+    "year": "2016",
+    "runtime": "1 sa 48 dk",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Captain America: Civil War",
+    "typeLabel": "Film",
+    "year": "2016",
+    "runtime": "2 sa 27 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "X-Men: Apocalypse",
+    "typeLabel": "Film",
+    "year": "2016",
+    "runtime": "2 sa 24 dk",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": true
+  },
+  {
+    "title": "Luke Cage",
+    "typeLabel": "Dizi",
+    "year": "2016",
+    "runtime": "2 Sezon / 26 Bölüm",
+    "studio": "Netflix",
+    "notes": "Defenders Saga",
+    "watched": false
+  },
+  {
+    "title": "Doctor Strange",
+    "typeLabel": "Film",
+    "year": "2016",
+    "runtime": "1 sa 55 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "Legion",
+    "typeLabel": "Dizi",
+    "year": "2017",
+    "runtime": "3 Sezon / 27 Bölüm",
+    "studio": "FX",
+    "notes": "X-Men spin-off (Psikolojik)",
+    "watched": true
+  },
+  {
+    "title": "Iron Fist",
+    "typeLabel": "Dizi",
+    "year": "2017",
+    "runtime": "2 Sezon / 23 Bölüm",
+    "studio": "Netflix",
+    "notes": "Defenders Saga",
+    "watched": true
+  },
+  {
+    "title": "Logan",
+    "typeLabel": "Film",
+    "year": "2017",
+    "runtime": "2 sa 17 dk",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 2",
+    "typeLabel": "Film",
+    "year": "2017",
+    "runtime": "2 sa 16 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "typeLabel": "Film",
+    "year": "2017",
+    "runtime": "2 sa 13 dk",
+    "studio": "Sony / Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "The Defenders",
+    "typeLabel": "Dizi",
+    "year": "2017",
+    "runtime": "1 Sezon / 8 Bölüm",
+    "studio": "Netflix",
+    "notes": "Defenders Saga (Ortak Dizi)",
+    "watched": false
+  },
+  {
+    "title": "Inhumans",
+    "typeLabel": "Dizi",
+    "year": "2017",
+    "runtime": "1 Sezon / 8 Bölüm",
+    "studio": "ABC",
+    "notes": "MCU (Başarısız)",
+    "watched": false
+  },
+  {
+    "title": "The Gifted",
+    "typeLabel": "Dizi",
+    "year": "2017",
+    "runtime": "2 Sezon / 29 Bölüm",
+    "studio": "Fox",
+    "notes": "X-Men yan hikaye",
+    "watched": false
+  },
+  {
+    "title": "Thor: Ragnarok",
+    "typeLabel": "Film",
+    "year": "2017",
+    "runtime": "2 sa 10 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "The Punisher",
+    "typeLabel": "Dizi",
+    "year": "2017",
+    "runtime": "2 Sezon / 26 Bölüm",
+    "studio": "Netflix",
+    "notes": "Defenders Saga",
+    "watched": false
+  },
+  {
+    "title": "Runaways",
+    "typeLabel": "Dizi",
+    "year": "2017",
+    "runtime": "3 Sezon / 33 Bölüm",
+    "studio": "Hulu",
+    "notes": "MCU (Genç ekip)",
+    "watched": false
+  },
+  {
+    "title": "Spider-Man",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2017",
+    "runtime": "3 Sezon / 64 Bölüm",
+    "studio": "Disney XD",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Black Panther",
+    "typeLabel": "Film",
+    "year": "2018",
+    "runtime": "2 sa 14 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "typeLabel": "Film",
+    "year": "2018",
+    "runtime": "2 sa 29 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Deadpool 2",
+    "typeLabel": "Film",
+    "year": "2018",
+    "runtime": "2 sa",
+    "studio": "20th Century Fox",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Cloak & Dagger",
+    "typeLabel": "Dizi",
+    "year": "2018",
+    "runtime": "2 Sezon / 20 Bölüm",
+    "studio": "Freeform",
+    "notes": "MCU (Genç ekip)",
+    "watched": false
+  },
+  {
+    "title": "Ant-Man and the Wasp",
+    "typeLabel": "Film",
+    "year": "2018",
+    "runtime": "1 sa 58 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Venom",
+    "typeLabel": "Film",
+    "year": "2018",
+    "runtime": "1 sa 52 dk",
+    "studio": "Sony Pictures",
+    "notes": "Sony Spider-Man Evreni",
+    "watched": false
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "typeLabel": "Film (Animasyon)",
+    "year": "2018",
+    "runtime": "1 sa 57 dk",
+    "studio": "Sony Pictures Animation",
+    "notes": "Oscar ödüllü",
+    "watched": false
+  },
+  {
+    "title": "Captain Marvel",
+    "typeLabel": "Film",
+    "year": "2019",
+    "runtime": "2 sa 3 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "Avengers: Endgame",
+    "typeLabel": "Film",
+    "year": "2019",
+    "runtime": "3 sa 1 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "X-Men: Dark Phoenix",
+    "typeLabel": "Film",
+    "year": "2019",
+    "runtime": "1 sa 53 dk",
+    "studio": "20th Century Fox",
+    "notes": "Fox X-Men Finali",
+    "watched": true
+  },
+  {
+    "title": "Spider-Man: Far From Home",
+    "typeLabel": "Film",
+    "year": "2019",
+    "runtime": "2 sa 9 dk",
+    "studio": "Sony / Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Men in Black: International",
+    "typeLabel": "Film",
+    "year": "2019",
+    "runtime": "1 sa 54 dk",
+    "studio": "Columbia",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Helstrom",
+    "typeLabel": "Dizi",
+    "year": "2020",
+    "runtime": "1 Sezon / 10 Bölüm",
+    "studio": "Hulu",
+    "notes": "Korku temalı (Yarı-MCU)",
+    "watched": false
+  },
+  {
+    "title": "The New Mutants",
+    "typeLabel": "Film",
+    "year": "2020",
+    "runtime": "1 sa 34 dk",
+    "studio": "20th Century Fox",
+    "notes": "Fox döneminin son filmi",
+    "watched": false
+  },
+  {
+    "title": "WandaVision",
+    "typeLabel": "Dizi",
+    "year": "2021",
+    "runtime": "1 Sezon / 9 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU (Minidizi)",
+    "watched": false
+  },
+  {
+    "title": "The Falcon and the Winter Soldier",
+    "typeLabel": "Dizi",
+    "year": "2021",
+    "runtime": "1 Sezon / 6 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU (Minidizi)",
+    "watched": false
+  },
+  {
+    "title": "M.O.D.O.K.",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2021",
+    "runtime": "1 Sezon / 10 Bölüm",
+    "studio": "Hulu",
+    "notes": "Stop-motion komedi",
+    "watched": false
+  },
+  {
+    "title": "Loki",
+    "typeLabel": "Dizi",
+    "year": "2021",
+    "runtime": "2 Sezon / 12 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Black Widow",
+    "typeLabel": "Film",
+    "year": "2021",
+    "runtime": "2 sa 14 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "What If...?",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2021",
+    "runtime": "3 Sezon / 27 Bölüm (Planlanan)",
+    "studio": "Disney+",
+    "notes": "MCU (Alternatif Evrenler)",
+    "watched": false
+  },
+  {
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "typeLabel": "Film",
+    "year": "2021",
+    "runtime": "2 sa 12 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Venom: Let There Be Carnage",
+    "typeLabel": "Film",
+    "year": "2021",
+    "runtime": "1 sa 37 dk",
+    "studio": "Sony Pictures",
+    "notes": "Sony Spider-Man Evreni",
+    "watched": false
+  },
+  {
+    "title": "Eternals",
+    "typeLabel": "Film",
+    "year": "2021",
+    "runtime": "2 sa 36 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Hit-Monkey",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2021",
+    "runtime": "2 Sezon / 20 Bölüm",
+    "studio": "Hulu",
+    "notes": "Yetişkin animasyonu",
+    "watched": false
+  },
+  {
+    "title": "Hawkeye",
+    "typeLabel": "Dizi",
+    "year": "2021",
+    "runtime": "1 Sezon / 6 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU (Minidizi)",
+    "watched": false
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "typeLabel": "Film",
+    "year": "2021",
+    "runtime": "2 sa 28 dk",
+    "studio": "Sony / Marvel Studios",
+    "notes": "MCU (Çoklu Evren)",
+    "watched": false
+  },
+  {
+    "title": "Moon Knight",
+    "typeLabel": "Dizi",
+    "year": "2022",
+    "runtime": "1 Sezon / 6 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU (Minidizi)",
+    "watched": false
+  },
+  {
+    "title": "Morbius",
+    "typeLabel": "Film",
+    "year": "2022",
+    "runtime": "1 sa 44 dk",
+    "studio": "Sony Pictures",
+    "notes": "Sony Spider-Man Evreni",
+    "watched": false
+  },
+  {
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "typeLabel": "Film",
+    "year": "2022",
+    "runtime": "2 sa 6 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Ms. Marvel",
+    "typeLabel": "Dizi",
+    "year": "2022",
+    "runtime": "1 Sezon / 6 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU (Minidizi)",
+    "watched": false
+  },
+  {
+    "title": "Thor: Love and Thunder",
+    "typeLabel": "Film",
+    "year": "2022",
+    "runtime": "1 sa 58 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "I Am Groot",
+    "typeLabel": "Kısa Dizi",
+    "year": "2022",
+    "runtime": "2 Sezon / 10 Bölüm (x5 dk)",
+    "studio": "Disney+",
+    "notes": "MCU",
+    "watched": true
+  },
+  {
+    "title": "She-Hulk: Attorney at Law",
+    "typeLabel": "Dizi",
+    "year": "2022",
+    "runtime": "1 Sezon / 9 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Werewolf by Night",
+    "typeLabel": "Özel Yapım",
+    "year": "2022",
+    "runtime": "52 dk",
+    "studio": "Disney+",
+    "notes": "MCU (TV Özel)",
+    "watched": false
+  },
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "typeLabel": "Film",
+    "year": "2022",
+    "runtime": "2 sa 41 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Guardians of the Galaxy Holiday Special",
+    "typeLabel": "Özel Yapım",
+    "year": "2022",
+    "runtime": "42 dk",
+    "studio": "Disney+",
+    "notes": "MCU (TV Özel)",
+    "watched": false
+  },
+  {
+    "title": "Spidey and His Amazing Friends",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2021",
+    "runtime": "Devam ediyor",
+    "studio": "Disney Jr.",
+    "notes": "Çocuklar için",
+    "watched": false
+  },
+  {
+    "title": "Moon Girl and Devil Dinosaur",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2023",
+    "runtime": "2 Sezon / 30+ Bölüm",
+    "studio": "Disney Channel",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "typeLabel": "Film",
+    "year": "2023",
+    "runtime": "2 sa 4 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "typeLabel": "Film",
+    "year": "2023",
+    "runtime": "2 sa 30 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "typeLabel": "Film (Animasyon)",
+    "year": "2023",
+    "runtime": "2 sa 20 dk",
+    "studio": "Sony Pictures Animation",
+    "notes": "-",
+    "watched": false
+  },
+  {
+    "title": "Secret Invasion",
+    "typeLabel": "Dizi",
+    "year": "2023",
+    "runtime": "1 Sezon / 6 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU (Minidizi)",
+    "watched": false
+  },
+  {
+    "title": "The Marvels",
+    "typeLabel": "Film",
+    "year": "2023",
+    "runtime": "1 sa 45 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Echo",
+    "typeLabel": "Dizi",
+    "year": "2024",
+    "runtime": "1 Sezon / 5 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU (Minidizi)",
+    "watched": false
+  },
+  {
+    "title": "Madame Web",
+    "typeLabel": "Film",
+    "year": "2024",
+    "runtime": "1 sa 56 dk",
+    "studio": "Sony Pictures",
+    "notes": "Sony Spider-Man Evreni",
+    "watched": false
+  },
+  {
+    "title": "X-Men '97",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2024",
+    "runtime": "1. Sezon: 10 Bölüm",
+    "studio": "Disney+",
+    "notes": "90'lar serisinin devamı",
+    "watched": false
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "typeLabel": "Film",
+    "year": "2024",
+    "runtime": "2 sa 7 dk",
+    "studio": "Marvel Studios",
+    "notes": "MCU / Fox Birleşimi",
+    "watched": false
+  },
+  {
+    "title": "Agatha All Along",
+    "typeLabel": "Dizi",
+    "year": "2024",
+    "runtime": "1 Sezon / 9 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU (Minidizi)",
+    "watched": false
+  },
+  {
+    "title": "Venom: The Last Dance",
+    "typeLabel": "Film",
+    "year": "2024",
+    "runtime": "1 sa 49 dk",
+    "studio": "Sony Pictures",
+    "notes": "Sony Spider-Man Evreni",
+    "watched": false
+  },
+  {
+    "title": "Kraven the Hunter",
+    "typeLabel": "Film",
+    "year": "2024",
+    "runtime": "TBA",
+    "studio": "Sony Pictures",
+    "notes": "Sony Spider-Man Evreni",
+    "watched": false
+  },
+  {
+    "title": "Your Friendly Neighborhood Spider-Man",
+    "typeLabel": "Dizi (Animasyon)",
+    "year": "2025",
+    "runtime": "TBA",
+    "studio": "Disney+",
+    "notes": "MCU (Alternatif)",
+    "watched": false
+  },
+  {
+    "title": "Captain America: Brave New World",
+    "typeLabel": "Film",
+    "year": "2025",
+    "runtime": "TBA",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Thunderbolts*",
+    "typeLabel": "Film",
+    "year": "2025",
+    "runtime": "TBA",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "The Fantastic Four: First Steps",
+    "typeLabel": "Film",
+    "year": "2025",
+    "runtime": "TBA",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Daredevil: Born Again",
+    "typeLabel": "Dizi",
+    "year": "2025",
+    "runtime": "1. Sezon: 9 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Ironheart",
+    "typeLabel": "Dizi",
+    "year": "2025",
+    "runtime": "1 Sezon / 6 Bölüm",
+    "studio": "Disney+",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Blade",
+    "typeLabel": "Film",
+    "year": "2026",
+    "runtime": "TBA",
+    "studio": "Marvel Studios",
+    "notes": "MCU (Mahershala Ali)",
+    "watched": false
+  },
+  {
+    "title": "Avengers: Doomsday",
+    "typeLabel": "Film",
+    "year": "2026",
+    "runtime": "TBA",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  },
+  {
+    "title": "Avengers: Secret Wars",
+    "typeLabel": "Film",
+    "year": "2027",
+    "runtime": "TBA",
+    "studio": "Marvel Studios",
+    "notes": "MCU",
+    "watched": false
+  }
+]

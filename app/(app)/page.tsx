@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AppNav } from "@/components/app-nav";
+import { SuggestionCard } from "@/components/ai/suggestion-card";
 import { InvitePanel } from "@/components/home/invite-panel";
 import { PersonCard } from "@/components/profile/person-card";
 import { StatusCard } from "@/components/status-card";
@@ -8,6 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { getCoupleContext } from "@/lib/couple";
 import { daysSince, daysUntil, formatTurkishDate, nextOccurrence, togetherLabel, untilLabel } from "@/lib/dates";
 import { getOrigin } from "@/lib/origin";
+import { createClient } from "@/lib/supabase/server";
 import { dateKindLabel } from "@/components/profile/person-card";
 
 export default async function HomePage() {
@@ -20,6 +21,14 @@ export default async function HomePage() {
   const days = couple.relationship_start ? daysSince(couple.relationship_start) : null;
   const anniversary = couple.relationship_start ? nextOccurrence(couple.relationship_start) : null;
   const origin = await getOrigin();
+  const periodKey = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Istanbul" }).format(new Date());
+  const supabase = await createClient();
+  const { data: suggestion } = await supabase
+    .from("ai_suggestions")
+    .select("body")
+    .eq("couple_id", couple.id)
+    .eq("period_key", periodKey)
+    .maybeSingle();
 
   const upcoming = [
     anniversary
@@ -44,7 +53,6 @@ export default async function HomePage() {
 
   return (
     <div className="grid gap-4">
-      <AppNav current="/" />
       <div>
         <p className="text-sm text-muted-foreground">Merhaba{myName ? `, ${myName}` : ""}</p>
         <h1 className="font-heading text-4xl">{couple.name}</h1>
@@ -71,6 +79,8 @@ export default async function HomePage() {
           ) : null}
         </CardContent>
       </Card>
+
+      <SuggestionCard initial={suggestion?.body ?? null} />
 
       <Card>
         <CardHeader>

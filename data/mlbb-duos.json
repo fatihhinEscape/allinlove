@@ -1,0 +1,380 @@
+[
+  {
+    "kind": "Romantik",
+    "heroA": "Carmilla",
+    "laneA": "Dolaşım",
+    "heroB": "Cecilion",
+    "laneB": "Mid"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Yve",
+    "laneA": "Mid",
+    "heroB": "Grock",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Zhuxin",
+    "laneA": "Mid",
+    "heroB": "Natalia",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Odette",
+    "laneA": "Mid",
+    "heroB": "Lancelot",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Odette",
+    "laneA": "Mid",
+    "heroB": "Johnson",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Lou Yi",
+    "laneA": "Mid",
+    "heroB": "Yu Zhong",
+    "laneB": "Exp"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Kagura",
+    "laneA": "Mid",
+    "heroB": "Hayabusa",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Lesley",
+    "laneA": "Adc",
+    "heroB": "Gusion",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Vexana",
+    "laneA": "Mid",
+    "heroB": "Leomord",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Miya",
+    "laneA": "Adc",
+    "heroB": "Alucard",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Layla",
+    "laneA": "Adc",
+    "heroB": "Clint",
+    "laneB": "Adc"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Benedetta",
+    "laneA": "Orman",
+    "heroB": "Khaleed",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Esmeralda",
+    "laneA": "Orman",
+    "heroB": "Khufra",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Silvanna",
+    "laneA": "Exp",
+    "heroB": "Granger",
+    "laneB": "Adc"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Fanny",
+    "laneA": "Orman",
+    "heroB": "Claude",
+    "laneB": "Adc"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Lylia",
+    "laneA": "Mid",
+    "heroB": "Harley",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Hanabi",
+    "laneA": "Adc",
+    "heroB": "Hayabusa",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Wanwan",
+    "laneA": "Adc",
+    "heroB": "Ling",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Wanwan",
+    "laneA": "Adc",
+    "heroB": "Yin",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Kalea",
+    "laneA": "Dolaşım",
+    "heroB": "Lukas",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Zhuxin",
+    "laneA": "Mid",
+    "heroB": "Suyou",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Melissa",
+    "laneA": "Dolaşım",
+    "heroB": "Julian",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Lunox",
+    "laneA": "Adc",
+    "heroB": "Fredrinn",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Edith",
+    "laneA": "Dolaşım",
+    "heroB": "Xavier",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Cici",
+    "laneA": "Exp",
+    "heroB": "Aamon",
+    "laneB": "Adc"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Natalia",
+    "laneA": "Dolaşım",
+    "heroB": "Aamon",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Novaria",
+    "laneA": "Mid",
+    "heroB": "Nolan",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Ruby",
+    "laneA": "Exp",
+    "heroB": "Roger",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Nana",
+    "laneA": "Mid",
+    "heroB": "Harith",
+    "laneB": "Adc"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Pharsa",
+    "laneA": "Mid",
+    "heroB": "Fredrinn",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Selena",
+    "laneA": "Dolaşım",
+    "heroB": "Moskov",
+    "laneB": "Adc"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Zetian",
+    "laneA": "Mid",
+    "heroB": "Zilong",
+    "laneB": "Exp"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Lunox",
+    "laneA": "Mid",
+    "heroB": "Natan",
+    "laneB": "Adc"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Alice",
+    "laneA": "Mid",
+    "heroB": "Balmond",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Miya",
+    "laneA": "Adc",
+    "heroB": "Estes",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Angela",
+    "laneA": "Dolaşım",
+    "heroB": "Julian",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Angela",
+    "laneA": "Dolaşım",
+    "heroB": "Martis",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Pharsa",
+    "laneA": "Mid",
+    "heroB": "Bruno",
+    "laneB": "Adc"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Kalea",
+    "laneA": "Dolaşım",
+    "heroB": "Joy",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Mathilda",
+    "laneA": "Dolaşım",
+    "heroB": "??",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Floryn",
+    "laneA": "Dolaşım",
+    "heroB": "Granger",
+    "laneB": "Adc"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Odetta",
+    "laneA": "Mid",
+    "heroB": "Tigreal",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Freya",
+    "laneA": "Mid",
+    "heroB": "Tigreal",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Kimmy",
+    "laneA": "Adc",
+    "heroB": "Xborg",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Obsidia",
+    "laneA": "Adc",
+    "heroB": "Dyroth",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Layla",
+    "laneA": "Dolaşım",
+    "heroB": "Johnson",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Lolita",
+    "laneA": "Dolaşım",
+    "heroB": "Nolan",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Edith",
+    "laneA": "Dolaşım",
+    "heroB": "Julian",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Kalea",
+    "laneA": "Dolaşım",
+    "heroB": "Saber",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Angela",
+    "laneA": "Dolaşım",
+    "heroB": "Alpha",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Marcel",
+    "laneA": "Dolaşım",
+    "heroB": "Hirara",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Rafaela",
+    "laneA": "Dolaşım",
+    "heroB": "Saber",
+    "laneB": "Dolaşım"
+  },
+  {
+    "kind": "Kombo",
+    "heroA": "Cici",
+    "laneA": "Exp",
+    "heroB": "Fredrinn",
+    "laneB": "Orman"
+  },
+  {
+    "kind": "Romantik",
+    "heroA": "Obsidia",
+    "laneA": "Dolaşım",
+    "heroB": "Atlas ",
+    "laneB": "Dolaşım"
+  }
+]

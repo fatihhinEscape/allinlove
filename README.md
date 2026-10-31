@@ -1,6 +1,6 @@
 # allinlove
 
-İki kişinin ortak anılarını, listelerini ve planlarını tuttuğu uygulama. Bu aşamada hesap, giriş ve çift kurulumu var. Uygulama bu bilgisayarda çalışır.
+İki kişinin ortak anılarını, listelerini ve planlarını tuttuğu uygulama. Bu aşamada hesap, giriş, çift kurulumu, partner profili ve önemli tarihler var. Uygulama bu bilgisayarda çalışır.
 
 ## Kurulum
 
@@ -13,7 +13,9 @@ npm install
 
 3. `.env.example` dosyasını `.env.local` olarak kopyala ve Supabase değerlerini doldur. Gizli anahtarlar bu dosyada kalır, repoya girmez.
 
-4. Supabase SQL Editor’de `supabase/migrations/20261031120000_profiles_and_couples.sql` dosyasının tamamını çalıştır.
+4. Supabase SQL Editor’de şu dosyaları sırayla çalıştır:
+   - `supabase/migrations/20261031120000_profiles_and_couples.sql`
+   - `supabase/migrations/20261031180000_partner_details_and_dates.sql`
 
 5. Supabase Authentication ayarları:
    - Email girişi açık olsun.

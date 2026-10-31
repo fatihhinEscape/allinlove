@@ -1,6 +1,6 @@
 # allinlove
 
-İki kişinin ortak anılarını, listelerini ve planlarını tuttuğu uygulama. Bu aşamada hesap, giriş, çift kurulumu, partner profili ve önemli tarihler var. Uygulama bu bilgisayarda çalışır.
+İki kişinin ortak anılarını, listelerini ve planlarını tuttuğu uygulama. Uygulama yerelde `http://localhost:3000` ve yayında `https://allinlove.vercel.app` adresinde açılır. Telefonda tarayıcı menüsünden ana ekrana eklenebilir.
 
 ## Kurulum
 
@@ -21,8 +21,8 @@ npm install
 5. Supabase Authentication ayarları:
    - Email girişi açık olsun.
    - Deneme için e-posta onayı kapalı kalsın.
-   - Site URL: `http://localhost:3000`
-   - Redirect URL: `http://localhost:3000/**`
+   - Site URL: `https://allinlove.vercel.app`
+   - Redirect URL listesine ikisini de ekle: `http://localhost:3000/**` ve `https://allinlove.vercel.app/**`
 
 6. Çalıştır:
 

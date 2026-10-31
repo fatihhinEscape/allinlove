@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Nunito } from "next/font/google";
 import { Providers } from "@/components/providers";
 import { PwaRegister } from "@/components/pwa-register";
@@ -17,6 +17,18 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "allinlove",
   description: "İkinizin ortak yeri",
+  applicationName: "allinlove",
+  appleWebApp: {
+    capable: true,
+    title: "allinlove",
+    statusBarStyle: "default",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#c45c6a",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

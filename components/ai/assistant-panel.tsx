@@ -17,8 +17,15 @@ export function AssistantPanel({ initialSettings }: { initialSettings: Setting[]
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  async function send() {
-    const content = draft.trim();
+  const prompts = [
+    "Bu hafta sonu için kayıtlı veriden bir aktivite öner.",
+    "İzleme listemizden sıradaki filmi veya diziyi seç.",
+    "Mobile Legends ikililerimizden bugün deneyeceğimiz birini söyle.",
+    "Yıl dönümü ve önemli tarihlerimize göre bir fikir ver.",
+  ];
+
+  async function send(text?: string) {
+    const content = (text ?? draft).trim();
     if (!content || pending) return;
     setDraft("");
     setPending(true);
@@ -63,9 +70,16 @@ export function AssistantPanel({ initialSettings }: { initialSettings: Setting[]
               </label>
             ))}
           </div>
+          <div className="flex flex-wrap gap-2">
+            {prompts.map((prompt) => (
+              <Button key={prompt} type="button" variant="outline" className="h-auto px-3 py-2 text-left whitespace-normal" disabled={pending} onClick={() => send(prompt)}>
+                {prompt}
+              </Button>
+            ))}
+          </div>
           <div className="grid max-h-96 gap-3 overflow-y-auto">
             {messages.length === 0 ? (
-              <p className="text-sm text-muted-foreground">Örnek: bu hafta sonu için bir aktivite, sıradaki film, yıl dönümü fikri.</p>
+              <p className="text-sm text-muted-foreground">Sorular yalnızca kayıtlı listelerden yanıtlanır.</p>
             ) : null}
             {messages.map((message, index) => (
               <p key={index} className={message.role === "user" ? "text-sm" : "rounded-lg bg-muted px-3 py-2 text-sm"}>
@@ -75,7 +89,7 @@ export function AssistantPanel({ initialSettings }: { initialSettings: Setting[]
           </div>
           {error ? <p className="text-sm text-destructive">{error}</p> : null}
           <Textarea value={draft} onChange={(event) => setDraft(event.target.value)} placeholder="Bir şey sor" />
-          <Button type="button" className="h-11" disabled={pending} onClick={send}>
+          <Button type="button" className="h-11" disabled={pending} onClick={() => send()}>
             {pending ? "Bakıyor…" : "Gönder"}
           </Button>
         </CardContent>

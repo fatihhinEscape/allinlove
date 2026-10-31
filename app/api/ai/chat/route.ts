@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { requireMembership } from "@/lib/membership";
-import { buildCoupleBrief, ensureSharingSettings } from "@/lib/openai/context";
+import { buildCoupleContext, ensureSharingSettings } from "@/lib/openai/context";
 import { COUNSELOR_PROMPT } from "@/lib/openai/prompt";
 
 export async function POST(request: Request) {
@@ -49,7 +49,7 @@ export async function POST(request: Request) {
     .order("created_at", { ascending: true })
     .limit(12);
 
-  const brief = await buildCoupleBrief(context.supabase, context.coupleId);
+  const { brief } = await buildCoupleContext(context.supabase, context.coupleId);
   let related = "";
   try {
     const embeddingResponse = await fetch("https://api.openai.com/v1/embeddings", {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ImportButton } from "@/components/modules/import-button";
+import { importStarterLists } from "@/lib/actions/modules";
 import { StatusCard } from "@/components/status-card";
 import { requireMembership } from "@/lib/membership";
 
@@ -16,6 +16,14 @@ export default async function TogetherPage() {
     return <StatusCard title="Henüz hazır değil" description={context.error} />;
   }
 
+  const [{ count: games }, { count: watch }] = await Promise.all([
+    context.supabase.from("games").select("id", { count: "exact", head: true }).eq("couple_id", context.coupleId),
+    context.supabase.from("watch_items").select("id", { count: "exact", head: true }).eq("couple_id", context.coupleId),
+  ]);
+  if (!games || !watch) {
+    await importStarterLists();
+  }
+
   return (
     <div className="grid gap-4">
       <div>
@@ -30,7 +38,6 @@ export default async function TogetherPage() {
           </Link>
         ))}
       </div>
-      <ImportButton />
     </div>
   );
 }

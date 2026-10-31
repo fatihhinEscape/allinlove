@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import type { Map as LeafletMapType, Marker } from "leaflet";
+import type { Layer, Map as LeafletMapType } from "leaflet";
 
 export type MapPoint = { id: string; name: string; latitude: number; longitude: number };
 
@@ -9,9 +9,11 @@ export function LeafletMap({ points }: { points: MapPoint[] }) {
   const node = useRef<HTMLDivElement>(null);
   const mapRef = useRef<LeafletMapType | null>(null);
 
+  const pointsKey = points.map((point) => `${point.id}:${point.latitude}:${point.longitude}:${point.name}`).join("|");
+
   useEffect(() => {
     let active = true;
-    const markers: Marker[] = [];
+    const markers: Layer[] = [];
 
     async function draw() {
       const leaflet = await import("leaflet");
@@ -24,21 +26,24 @@ export function LeafletMap({ points }: { points: MapPoint[] }) {
         }).addTo(mapRef.current);
       }
       const map = mapRef.current;
-      const icon = leaflet.icon({
-        iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
-        shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-      });
+      markers.splice(0).forEach((marker) => marker.remove());
       points.forEach((point) => {
-        const marker = leaflet.marker([point.latitude, point.longitude], { icon }).addTo(map);
+        const mine = point.name === "Sen";
+        const marker = leaflet.circleMarker([point.latitude, point.longitude], {
+          radius: 9,
+          color: mine ? "#9d3d52" : "#5c6b73",
+          fillColor: mine ? "#e7a0ab" : "#d7e3ea",
+          fillOpacity: 1,
+          weight: 2,
+        }).addTo(map);
         marker.bindPopup(point.name);
         markers.push(marker);
       });
+      map.invalidateSize();
       if (points.length === 1) {
-        map.setView([points[0].latitude, points[0].longitude], 13);
+        map.setView([points[0].latitude, points[0].longitude], 14);
       } else if (points.length > 1) {
-        map.fitBounds(leaflet.latLngBounds(points.map((point) => [point.latitude, point.longitude])));
+        map.fitBounds(leaflet.latLngBounds(points.map((point) => [point.latitude, point.longitude])), { padding: [24, 24] });
       }
     }
 
@@ -47,7 +52,9 @@ export function LeafletMap({ points }: { points: MapPoint[] }) {
       active = false;
       markers.forEach((marker) => marker.remove());
     };
-  }, [points]);
+    // pointsKey captures the coordinates that should redraw the markers.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pointsKey]);
 
   return <div ref={node} className="h-64 w-full overflow-hidden rounded-xl" />;
 }

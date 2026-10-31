@@ -7,9 +7,15 @@ const LeafletMap = dynamic(() => import("@/components/map/leaflet-map").then((mo
   ssr: false,
 });
 
-export function PlaceMap({ points }: { points: MapPoint[] }) {
+export function PlaceMap({
+  points,
+  empty = "Koordinatı olan yerler haritada görünür.",
+}: {
+  points: MapPoint[];
+  empty?: string;
+}) {
   if (points.length === 0) {
-    return <p className="text-sm text-muted-foreground">Koordinatı olan yerler haritada görünür.</p>;
+    return <p className="text-sm text-muted-foreground">{empty}</p>;
   }
   return <LeafletMap points={points} />;
 }

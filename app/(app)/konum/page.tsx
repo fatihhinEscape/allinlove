@@ -14,21 +14,28 @@ export default async function LocationPage() {
 
   if (error) return <StatusCard title="Henüz hazır değil" description="Konum tablosu yok. Son SQL betiğini çalıştır." />;
 
-  const names = new Map((profiles ?? []).map((profile) => [profile.id, profile.display_name]));
-  const initial = (locations ?? []).map((row) => ({
-    ...row,
-    label: row.user_id === context.user.id ? "Sen" : names.get(row.user_id) ?? "Partner",
+  const people = (profiles ?? []).map((profile) => ({
+    id: profile.id,
+    name: profile.display_name,
   }));
+  if (!people.some((person) => person.id === context.user.id)) {
+    people.unshift({ id: context.user.id, name: "Sen" });
+  }
 
   return (
     <div className="grid gap-4">
       <div>
         <h1 className="font-heading text-3xl">Konum</h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          İsteğe bağlıdır. <Link href="/profil" className="text-primary">Profile dön</Link>
+          İsteğe bağlıdır. <Link href="/profil" className="text-primary">Profil sayfasına dön</Link>
         </p>
       </div>
-      <LocationPanel coupleId={context.coupleId} userId={context.user.id} initial={initial} />
+      <LocationPanel
+        coupleId={context.coupleId}
+        userId={context.user.id}
+        people={people}
+        initial={locations ?? []}
+      />
     </div>
   );
 }
